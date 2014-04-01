@@ -27,7 +27,7 @@ using_library "octomap"
 task_context "Task" do
     # This is the default from now on, and should not be removed. Rock will
     # transition to a setup where all components use a configuration step.
-    needs_configuration
+    #sneeds_configuration
 
     # A configuration property (here, a std::string). Its value can be retrieved
     # in the C++ code with # _config_value.get() and _config_value.set(new_value).
