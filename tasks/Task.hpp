@@ -5,6 +5,10 @@
 
 #include "octomap_wrapper_producer/TaskBase.hpp"
 
+namespace octomap_wrapper {
+ 	 class OctomapWrapper;
+}
+
 namespace octomap_wrapper_producer {
 
     /*! \class Task 
