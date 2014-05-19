@@ -33,6 +33,8 @@ class Task: public TaskBase {
 	friend class TaskBase;
 protected:
 
+	bool newmap;
+
 public:
 	/** TaskContext constructor for Task
 	 * \param name Name of the task. This name needs to be unique to make it identifiable via nameservices.
