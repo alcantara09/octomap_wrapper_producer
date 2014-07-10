@@ -19,6 +19,6 @@ Orocos.run 'octomap_wrapper_producer::Task' => 'octomap_wrapper_producer' do
           puts "new msg"
       end
   
-      sleep 0.1
+      sleep 1.0
   end
 end
