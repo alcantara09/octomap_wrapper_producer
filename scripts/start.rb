@@ -16,9 +16,9 @@ Orocos.run 'octomap_wrapper_producer::Task' => 'octomap_wrapper_producer' do
   
   while true
       if msg = reader.read_new
-          puts "new msg"
+         puts "new msg"
       end
   
-      sleep 1.0
+      sleep 100.0
   end
 end
